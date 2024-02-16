@@ -1,0 +1,41 @@
+  
+  /* Navbar styles */
+  .navbar {
+    /* background:linear-gradient(left,green,red); Navbar background color */
+    background: linear-gradient(red, green);
+  }
+  
+  /* Menu styles */
+  .menu {
+    list-style-type: none;
+    padding: 3px;
+    margin: 0;
+    display: flex;
+    width: 500px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0; /* Remove margin from the last menu item */
+  }
+  
+  .menu li a {
+    color: #fff; /* Menu item text color */
+    text-decoration: none;
+    padding: 20px; /* Adjust padding to increase clickable area */
+    display: block;
+    font-size: 20px;
+    
+  }
+  
+  .menu li a:hover {
+    background-color: hsl(160, 83%, 50%); /* Change background color on hover */
+  }
+
+  .images_fixed{
+    height: 50px;
+    width: 100px;
+
+  }
+    .hv ul  a:hover{
+    background-color: #baedf4;
+  }
