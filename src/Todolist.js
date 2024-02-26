@@ -31,7 +31,7 @@ function Todolist() {
                 </div>
             </nav>
         </>
-    );
-}
+    )
+};
 
 export default Todolist;
